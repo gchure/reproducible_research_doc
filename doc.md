@@ -43,14 +43,15 @@ relying on computation in the generation, processing, interpretation, and
 presentation of data. In my experience, the programs written to perform the
 aforementioned tasks are tailor-made to fit that particular problem.
 Unfortunately, these bits of code are typically closer to a Frankenstein
-creature than a tailor-made suit. Hardcoded numbers, ambiguously named
-variables, and absent (or flat-out wrong) documentation are the most common
-afflictions found lurking in the code base. While this writing is not meant to
-educate on how to write scientific software, merely organizing the codebase by 
-separating the *executed* code from the *defined functions*
+creature than a tailor-made suit. Hardcoded numbers, ambiguously named variables, and
+absent (or flat-out wrong) documentation are the most common afflictions
+found lurking in the code base. While this writing is not meant to educate on
+how to write scientific software, merely organizing the codebase by
+separating the *executed code* from the *defined functions* would go a long way
+towards making the analysis understandable, and therefore reproducible. 
 
 As of this writing, I am nearing the end of my PhD and find myself reflecting
-on what I've learned, and more importantly, what I could
+on what I've learned (it's quite a lot), and more importantly, what I could
 have done better. Over the course of my graduate research, I've had the immense
 privilege to be involved in projects so-called "scientific socialism" where first
 authorship of our work was split amongst five graduate students
