@@ -6,26 +6,6 @@ author:
     univ: California Institute of Technology, Pasadena, CA, USA 
     email: gchure@caltech.edu
     orcid: 0000-0002-2216-2057
-email: gchure@caltech.edu
-geometry: margin=0.75in, footskip=0.85in
-fignos-cleveref: true
-fignos-plus-name: "Fig."
-reference-section-title: References 
-bibliography: library.bib
-classoption: twocolumn
-link-citations: true
-monofont: Ubuntu Mono 
-sansfont: Cabin Regular
-mainfont: Source Sans Pro
-header-includes:
-    \usepackage{microtype}
-    \usepackage{sectsty}
-    \usepackage{caption}
-    \sectionfont{\sffamily\sffamily}
-    \subsectionfont{\sffamily}
-    \subsubsectionfont{\normalfont\sffamily\itshape}
-    \captionsetup[figure]{name={\bfseries\sffamily\selectfont Fig.}}
-    \captionsetup[figure]{labelsep=colon}
 abstract:
     blah
 ---
@@ -36,7 +16,16 @@ whether such a crisis exists (cite), it is an objective truth that
 improvements can be made in how science is performed, presented, and reviewed
 such that other scientists, whether a savant or a neophyte, could reproduce
 the analysis, generation, and interpretation of your research findings, assuming
-they have the means to.
+they have the means to. 
+
+Over the past 10 years, numerous articles have been written putting forth
+opinions on what reproducible research looks like. As of late the concept of a
+"future paper" in which figures are interactive, code is executable in-browser,
+and data can be easily downloaded has become popular and advocated for as for
+what the next generation of science will look like. However, there is almost
+never a discussion of *how* one can get to this finish line. I whole-heartedly
+agree that the "future paper" is coming, but focusing on these examples without
+ever chronicling
 
 All fields of science are becoming more quantitative and, as a consequence,
 relying on computation in the generation, processing, interpretation, and
@@ -69,13 +58,13 @@ behind it.
 
 ## Execution of code
 
-**`processing`**
+### Processing
 
-**`analysis`**
+### Analysis
 
-**`exploratory`**
+### Exploration
 
-**`figures`**
+### Presentation
 
 ## Storage and organization of (not big) data
 
