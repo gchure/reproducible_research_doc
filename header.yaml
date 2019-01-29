@@ -1,0 +1,25 @@
+---
+geometry: top=0.85in, left=1in, footskip=0.85in
+fignos-cleveref: true
+fignos-plus-name: "Fig."
+reference-section-title: References 
+bibliography: library.bib
+classoption: twocolumn
+link-citations: true
+header-includes:
+  \usepackage{microtype}
+  \usepackage{graphicx}
+  \usepackage{mathpazo}
+  \usepackage{sectsty}
+  \usepackage{amsmath}
+  \usepackage{setspace}
+  \usepackage{csquotes}
+  \usepackage[font={small, sf, stretch=1.2}]{caption}
+  \usepackage[T1]{fontenc}
+  \renewcommand{\sfdefault}{qhv}
+  \sectionfont{\bfseries\normalfont\sffamily}
+  \subsectionfont{\sffamily}
+  \subsubsectionfont{\normalfont\sffamily\itshape}
+  \captionsetup[figure]{name={\bfseries\sffamily\selectfont Fig.}}
+  \captionsetup[figure]{labelsep=space}
+---
