@@ -1,1 +1,1 @@
-pandoc --template=template.tex --pdf-engine=xelatex  -f markdown+smart --filter   pandoc-citeproc --bibliography=library.bib  -s doc.md -o doc.pdf 
+pandoc header.yaml --template=template.tex --pdf-engine=xelatex  -f markdown+smart --filter=pandoc-fignos --filter=pandoc-citeproc --bibliography=library.bib  -s doc.md -o doc.pdf 
